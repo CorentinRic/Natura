@@ -1,0 +1,105 @@
+.nav {
+    background-color: var(--color-light);
+    height: 80px;
+    color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-left: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo > img{
+    height: 70%;
+}
+.nav-menu{
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+}
+.nav-menu-link{
+    color: var(--color-dark);
+    border-bottom: 3px solid var(--color-light);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.nav-menu-link:hover{
+    border-bottom: 3px solid var(--color-primary);
+}
+.nav-btn{
+    background: transparent;
+    color: var(--color-dark);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: none;
+    font-size: 20px;
+}
+.nav-socials > a{
+    color: var(--color-primary);
+    font-size: 30px;
+}
+.nav-socials > a:hover{
+    color: var(--color-dark);
+    font-size: 30px;
+}
+.nav-socials{
+    display: flex;
+    gap: 0.5rem;
+}
+
+@media (max-width: 1030px) {
+    .nav-btn{
+        display: block;
+        position: absolute;
+        right: 2rem;
+    }
+    .nav-menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--color-light);
+        transition: 1s;
+        transform: translateX(-100vw);
+        z-index: 2;
+    }
+    .responsive__nav{
+        transform: none;
+    }
+    .nav-close-btn{
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        color: var(--color-dark);
+    }
+    .nav-menu > a{
+        font-size: 4.6vh;
+        color: var(--color-dark);
+        border-bottom: var(--color-light);
+    }
+    .nav-menu > a:hover{
+        border-bottom: 3px solid var(--color-light);
+    }
+    .nav-socials{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .logo {
+        margin-left: 1rem;
+    }
+}

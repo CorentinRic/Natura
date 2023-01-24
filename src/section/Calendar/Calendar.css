@@ -1,0 +1,78 @@
+#calendar{
+    padding-top: 0px;
+    margin-top: 60px;
+}
+.calendar-container{
+    background-color: var(--color-light);
+    max-width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 100%;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.calendar-img{
+    width: 25rem;
+    height: 18rem;
+    margin-top: 7rem;
+    margin-right: 2rem;
+}
+.calendar-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.calendar-container-collapse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calendar-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.calendar-title > h2{ 
+    font-size: 40px;
+}
+.container-collapse{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width: 1030px){
+    .calendar-container{
+        flex-direction: column-reverse;
+        width: 90%;
+        padding-top: 0rem;
+        padding-bottom: 3rem;
+    }
+    .calendar-img{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 0rem;
+    }
+}
+
+@media (max-width: 600px){
+    .calendar-img{
+        width: 90%;
+        height: 100%;
+    }
+    .calendar-title > h2 {
+        font-size: 30px;
+    }
+    .container-collapse {
+        width: 90%;
+    }
+}

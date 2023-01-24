@@ -1,0 +1,9 @@
+.btn{
+    color: var(--color-light);
+    background: var(--color-primary);
+    padding: 13px 22px 13px 22px;
+    border-radius: 30px;
+}
+.btn:hover{
+    transform: scale(1.05);
+}

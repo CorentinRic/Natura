@@ -1,0 +1,51 @@
+.banner{
+    background-image: url(/src/assets/images/nick-hang-nU4YvCaDb4Y-unsplash.webp);
+    height: 90vh;
+    padding-top: 60px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 50rem;
+    box-shadow: inset 0px 0px 50px -8px rgba(26,0,13,0.29);
+}
+.banner-container{
+    color: var(--color-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20rem;
+    text-align: center;
+}
+.banner-title{
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+.banner-line{
+    border-top: 4px solid var(--color-primary);
+    width: 10rem;
+}
+.banner-subtitle{
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    max-width: 36rem;
+}
+.banner-subtitle > h2{
+    font-weight: 400;
+}
+@media (max-width: 1030px) {
+
+}
+@media (max-width: 600px) {
+    .banner-title{
+        font-size: 20px;
+    }
+    .banner-subtitle{
+        font-size: 12px;
+        max-width: 23rem;
+    }
+}

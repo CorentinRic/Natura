@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1N",
+        "name": "Introduction",
+        "content": "L'utilisateur reconnait avoir pris connaissance de ce document et accepté l'ensemble de ces informations, que cet usage soit fait à titre personnel ou professionnel. Si cet usage est fait à titre professionnel, l'utilisateur garantit détenir les pouvoirs nécessaires pour accepter ces conditions générales au sein de son organisation."
+    },
+    {
+        "id": "2N",
+        "name": "Identification - Coordonnées",
+        "content": [
+                "Corentin Richard",
+                "corentinrichard.p@gmail.com",
+                "Nord, France"
+        ]
+    },
+    {
+        "id": "3N",
+        "name": "Hébergement",
+        "content": [
+            "Ce site est hébergé par GITHUB",
+            "Siège social : San Francisco, Californie, États-Unis",
+            "Contact : https://support.github.com/request"
+        ]
+    },
+    {
+        "id": "4N",
+        "name": "Liens hypertextes",
+        "content": "Les liens vers des sites extérieurs mis en place depuis le site corentinric.github.io/Natura/ ne sauraient engager ma responsabilité, premièrement par rapport au contenu de ces sites qui peut être modifiè à tout moment, mais également par rapport aux risques techniques que leur consultation peut provoquer. En utilisant un lien hypertexte pour accéder à un site extérieur, vous acceptez de prendre les risques évoques et de subir un possible préjudice direct ou indirect. La création de liens hypertextes vers le site corentinric.github.io/Natura/ est totalement autorisée."
+    }
+]
