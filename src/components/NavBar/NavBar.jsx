@@ -6,7 +6,7 @@ import {ImCross} from 'react-icons/im'
 import {AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 import Btn from '../Btn/Btn'
 import useMediaQuery from '../../utils/useMediaQuery'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/logo.webp'
 
 const data = [
     {
@@ -65,7 +65,7 @@ function NavBar() {
                     <a href="https://www.instagram.com/?hl=fr" target="_blank" rel='noreferrer' aria-label="instagram"><AiFillInstagram /></a>
                 </div>
             </div>
-            <button className='nav-btn' onClick={showNavBar} ria-label="Menu button">
+            <button className='nav-btn' onClick={showNavBar} aria-label="Menu button">
                 <GiHamburgerMenu />
             </button>
         </nav>

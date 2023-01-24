@@ -19,8 +19,8 @@ function Footer() {
                         <li>06 60 06 60 06</li>
                     </ul>
                     <div className="footer-socials">
-                        <a href="https://fr-fr.facebook.com/" target="_blank" rel='noreferrer'><AiFillFacebook /></a>
-                        <a href="https://www.instagram.com/?hl=fr" target="_blank" rel='noreferrer'><AiFillInstagram /></a>
+                        <a href="https://fr-fr.facebook.com/" target="_blank" rel='noreferrer' aria-label="facebook"><AiFillFacebook /></a>
+                        <a href="https://www.instagram.com/?hl=fr" target="_blank" rel='noreferrer' aria-label="instagram"><AiFillInstagram /></a>
                     </div>
                 </div>
                 <div className="footer-box">
