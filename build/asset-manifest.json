@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Natura/static/css/main.4854fc66.css",
+    "main.css": "/Natura/static/css/main.370a0160.css",
     "main.js": "/Natura/static/js/main.73693956.js",
     "static/media/nick-hang-nU4YvCaDb4Y-unsplash.webp": "/Natura/static/media/nick-hang-nU4YvCaDb4Y-unsplash.89672772eb4d9785717a.webp",
     "static/media/olivier-piquer-7TRg9g-peXw-unsplash.webp": "/Natura/static/media/olivier-piquer-7TRg9g-peXw-unsplash.43a297413670d0493193.webp",
@@ -17,11 +17,11 @@
     "static/media/sies-kranen-q_ZQ3FmjIbc-unsplash.webp": "/Natura/static/media/sies-kranen-q_ZQ3FmjIbc-unsplash.95a736b97dda2a911c3d.webp",
     "static/media/logo.webp": "/Natura/static/media/logo.67a01eba8113eddebe4a.webp",
     "index.html": "/Natura/index.html",
-    "main.4854fc66.css.map": "/Natura/static/css/main.4854fc66.css.map",
+    "main.370a0160.css.map": "/Natura/static/css/main.370a0160.css.map",
     "main.73693956.js.map": "/Natura/static/js/main.73693956.js.map"
   },
   "entrypoints": [
-    "static/css/main.4854fc66.css",
+    "static/css/main.370a0160.css",
     "static/js/main.73693956.js"
   ]
 }
