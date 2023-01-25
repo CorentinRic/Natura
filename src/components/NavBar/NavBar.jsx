@@ -43,9 +43,7 @@ function NavBar() {
 
     return (
         <nav className='nav'>
-            <span className='logo'>
-                <img src={logo} alt="logo" />
-            </span>
+            <img className='logo' src={logo} alt="logo" />
             <div ref={navRef} className="nav-menu">
                 {data.map((data) => {
                         return (

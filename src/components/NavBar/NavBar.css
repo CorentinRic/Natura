@@ -9,13 +9,7 @@
 .logo {
     margin-left: 2rem;
     height: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.logo > img{
-    height: 100%;
-    width: 100%;
+    width: 3rem;
 }
 .nav-menu{
     display: flex;
