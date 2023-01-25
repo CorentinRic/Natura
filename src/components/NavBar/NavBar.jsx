@@ -57,7 +57,7 @@ function NavBar() {
                 link="/#contact"
                 btn="Contact"
                 /> : <HashLink className='nav-menu-link' onClick={showNavBar} to="/#contact">Contact</HashLink>}
-                <button className='nav-btn nav-close-btn' onClick={showNavBar}>
+                <button className='nav-btn nav-close-btn' onClick={showNavBar} aria-label="close menu">
                     <ImCross />
                 </button>
                 <div className="nav-socials">
