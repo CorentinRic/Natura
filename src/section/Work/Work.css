@@ -30,9 +30,11 @@
 @media (max-width: 600px){
     .work-container {
         padding: 2rem 0rem 2rem 0rem;
+        width: 100%;
+        min-height: 100%;
     }
     .work-container > h2{
-        font-size: 9vw;
+        font-size: 8vw;
     }
     .work-container > p {
         font-size: 13px;

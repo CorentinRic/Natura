@@ -99,6 +99,9 @@
     }
     .carousel, .carousel__active-picture, .carousel__img{
         border-radius: 10px;
+        height: 230px;
+        margin-top: 0rem;
+        margin-bottom: 3rem;
     }
     .indicatif{
         display: none;
