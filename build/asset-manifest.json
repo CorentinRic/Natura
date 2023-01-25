@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Natura/static/css/main.e28cee4e.css",
+    "main.css": "/Natura/static/css/main.53b65f1c.css",
     "main.js": "/Natura/static/js/main.d2f58089.js",
     "static/media/nick-hang-nU4YvCaDb4Y-unsplash.webp": "/Natura/static/media/nick-hang-nU4YvCaDb4Y-unsplash.89672772eb4d9785717a.webp",
     "static/media/olivier-piquer-7TRg9g-peXw-unsplash.webp": "/Natura/static/media/olivier-piquer-7TRg9g-peXw-unsplash.43a297413670d0493193.webp",
@@ -18,11 +18,11 @@
     "static/media/sies-kranen-q_ZQ3FmjIbc-unsplash.webp": "/Natura/static/media/sies-kranen-q_ZQ3FmjIbc-unsplash.95a736b97dda2a911c3d.webp",
     "static/media/logo.png": "/Natura/static/media/logo.bf73aacdd290475605de.png",
     "index.html": "/Natura/index.html",
-    "main.e28cee4e.css.map": "/Natura/static/css/main.e28cee4e.css.map",
+    "main.53b65f1c.css.map": "/Natura/static/css/main.53b65f1c.css.map",
     "main.d2f58089.js.map": "/Natura/static/js/main.d2f58089.js.map"
   },
   "entrypoints": [
-    "static/css/main.e28cee4e.css",
+    "static/css/main.53b65f1c.css",
     "static/js/main.d2f58089.js"
   ]
 }
