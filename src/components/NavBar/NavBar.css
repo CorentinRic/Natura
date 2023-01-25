@@ -8,13 +8,13 @@
 }
 .logo {
     margin-left: 2rem;
-    height: 4rem;
+    height: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .logo > img{
-    height: 70%;
+    height: 100%;
     width: 100%;
 }
 .nav-menu{
